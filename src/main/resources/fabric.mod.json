@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "blockmarker",
+  "version": "${version}",
+  "name": "Block Marker",
+  "description": "Markiert feste Koordinaten (auch durch Waende sichtbar). F6 entfernt die naechste Markierung, F9 oeffnet die Liste.",
+  "authors": [],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.example.blockmarker.BlockMarkerClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.1",
+    "minecraft": "~26.2",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
